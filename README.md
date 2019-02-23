@@ -7,6 +7,31 @@
 vs2013
 
 ## 关于
-此github项目与腾讯云开发者平台项目同步更新
-访问 https://dev.tencent.com/u/izzp/p/Study_C-SHARP_High/git
-E-mail：i@mezzp.com
+此github项目与腾讯云开发者平台项目同步更新   
+访问 https://dev.tencent.com/u/izzp/p/Study_C-SHARP_High/git   
+E-mail：i@mezzp.com   
+   
+   
+         ┌─┐       ┌─┐   
+      ┌──┘ ┴───────┘ ┴──┐   
+      │                 │   
+      │       ───       │   
+      │  ─┬┘       └┬─  │   
+      │                 │   
+      │       ─┴─       │   
+      │                 │   
+      └───┐         ┌───┘   
+          │         │   
+          │         │   
+          │         │   
+          │         └──────────────┐   
+          │                        │   
+          │                        ├─┐   
+          │                        ┌─┘       
+          │                        │   
+          └─┐  ┐  ┌───────┬──┐  ┌──┘            
+            │ ─┤ ─┤       │ ─┤ ─┤            
+            └──┴──┘       └──┴──┘    
+                神兽保佑    
+                代码无BUG!    
+
