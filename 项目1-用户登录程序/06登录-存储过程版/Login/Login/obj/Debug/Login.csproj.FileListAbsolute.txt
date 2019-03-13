@@ -64,3 +64,11 @@ F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\
 F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\bin\Debug\Login.exe.config
 F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.exe
 F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\bin\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\bin\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.frmLogin.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.frmMain.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.Properties.Resources.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.Register.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache

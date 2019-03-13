@@ -34,22 +34,15 @@ namespace Login
             Users u = new Users();
             u.UserName = txtUser.Text.Trim();
             u.Password= ToMD5(txtPassword.Text.Trim());
-            //if (DBOption.readDB(u.UserName))
-            //{
-            //    MessageBox.Show("当前用户已被注册！");
-            //}
-            //else
-            //{
-                if (DBOption.writeDBPro(u)>0)
-                {
-                    MessageBox.Show("注册成功！");
-                    frmLogin l = new frmLogin();
-                    l.Show();
-                    this.Hide();
-                }
-                else
-                    MessageBox.Show("注册失败！");
-           // }
+            if (DBOption.writeDBPro(u)>0)
+            {
+                MessageBox.Show("注册成功！");
+                frmLogin l = new frmLogin();
+                l.Show();
+                this.Hide();
+            }
+            else
+                MessageBox.Show("注册失败！");
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

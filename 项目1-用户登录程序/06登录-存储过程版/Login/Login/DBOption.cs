@@ -65,38 +65,6 @@ namespace Login
                 conn.Close();
             }
         }
-        //static public bool readDB(string userName)
-        //{
-        //    bool result = false;
-        //    SqlConnection conn = null;
-        //    conn = new SqlConnection(path);
-        //    conn.Open();
-        //    try
-        //    {
-        //        SqlCommand comm = new SqlCommand("select * from users", conn);
-        //        SqlDataReader reader = comm.ExecuteReader();
-        //        if (reader.HasRows)
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                if (reader.GetString(0) == userName)
-        //                {
-        //                    result = true;
-        //                    return result;
-        //                }
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
-        //    finally
-        //    {
-        //        conn.Close();
-        //    }
-        //    return result;
-        //}
 
     }
 }
