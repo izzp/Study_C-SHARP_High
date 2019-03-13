@@ -1,0 +1,66 @@
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\bin\Debug\Login.exe.config
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\bin\Debug\Login.exe
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\bin\Debug\Login.pdb
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.frmLogin.resources
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.frmMain.resources
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.Properties.Resources.resources
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.exe
+D:\我的文档\Visual Studio 2013\Projects\01登录-简单版\Login\Login\obj\Debug\Login.pdb
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.exe.config
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.exe
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.pdb
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.exe
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.pdb
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.frmLogin.resources
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.frmMain.resources
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.Properties.Resources.resources
+D:\我的文档\Visual Studio 2013\Projects\git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.exe.config
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.exe
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.pdb
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.exe
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\bin\Debug\Login.pdb
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.frmLogin.resources
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.frmMain.resources
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.Properties.Resources.resources
+D:\Git\Study_C-SHARP_High\项目1-用户登录程序\01登录-简单版\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\yuxin\Desktop\Login\Login\bin\Debug\Login.exe.config
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.exe
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.pdb
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.frmLogin.resources
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.frmMain.resources
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.Properties.Resources.resources
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.Register.resources
+C:\Users\yuxin\Desktop\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+C:\Users\yuxin\Desktop\Login\Login\bin\Debug\Login.exe
+C:\Users\yuxin\Desktop\Login\Login\bin\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\bin\Debug\Login.exe.config
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\bin\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\bin\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.frmLogin.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.frmMain.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.Properties.Resources.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.Register.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\05登录-加密版\Login\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\bin\Debug\Login.exe.config
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.frmLogin.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.frmMain.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.Properties.Resources.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.Register.resources
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\obj\Debug\Login.csproj.GenerateResource.Cache
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\bin\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\bin\Debug\Login.pdb
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\bin\Debug\Login.exe.config
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.exe
+F:\Study_C-SHARP_High\项目1-用户登录程序\06登录-存储过程版\Login\Login\obj\Debug\Login.pdb
