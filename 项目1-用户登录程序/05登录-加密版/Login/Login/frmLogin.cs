@@ -17,22 +17,18 @@ namespace Login
         {
             InitializeComponent();
         }
-
+        private string ToMD5(string input)
+        {
+            byte[] mingwen = Encoding.UTF8.GetBytes(input);
+            MD5 md5 = new MD5CryptoServiceProvider();
+            byte[] miwen = md5.ComputeHash(mingwen);
+            return BitConverter.ToString(miwen).Replace("-", "");
+        }
         private void btnLogin_Click(object sender, EventArgs e)
         {
             Users u = new Users();
-            string password;
             u.UserName = txtUser.Text.Trim();
-            password = txtPassword.Text.Trim();
-            byte[] buffer = Encoding.Default.GetBytes(password);
-            MD5 md5 = MD5.Create(); 
-            byte[] bufferNew=md5.ComputeHash(buffer); //使用MD5实例的ComputerHash()方法处理字节数组。
-            string strNew=null;
-            for(int i=0;i<bufferNew.Length;i++)
-            {
-            strNew+=bufferNew[i].ToString("x2");  //对bufferNew字节数组中的每个元素进行十六进制转换然后拼接成strNew字符串
-            }
-            u.Password = strNew;
+            u.Password = ToMD5(txtPassword.Text.Trim());
             if (DBOption.readDB(u))
             {
                 frmMain frmmain1 = new frmMain();

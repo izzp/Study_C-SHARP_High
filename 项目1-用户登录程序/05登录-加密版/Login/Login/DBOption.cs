@@ -11,7 +11,7 @@ namespace Login
 {
     class DBOption
     {
-        static string path = @"Data Source=(localdb)\Projects;AttachDbFilename=C:\Users\yuxin\AppData\Local\Microsoft\VisualStudio\SSDT\users.mdf;Integrated Security=True";
+        static string path = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Administrator\Desktop\05登录-加密版\Login\users.mdf;Integrated Security=True;Connect Timeout=30";
         static public bool writeDB(Users u)
         {
             bool result = false;
