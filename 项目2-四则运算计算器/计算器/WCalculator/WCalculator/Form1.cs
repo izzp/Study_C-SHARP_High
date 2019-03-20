@@ -34,67 +34,36 @@ namespace WCalculator
         private void operator1(object sender, EventArgs e)//符号"+ - * / ="
         {
             Button b = (Button)(sender);//实例化按钮对象
-            if (b.Text == "+")//是否按下加号
+            if (b.Text != "=")//判断是否按下+，-，*，/
             {
                 num1 = double.Parse(txtOutput.Text);
                 txtOutput.Text = "";
-                opp = "+";
+                opp = b.Text;
                 opp1 = "";
-            }
-            else if (b.Text == "-")//是否按下减号
-            {
-                num1 = double.Parse(txtOutput.Text);
-                txtOutput.Text = "";
-                opp = "-";
-                opp1 = "";
-            }
-            else if (b.Text == "*")//是否按下乘号
-            {
-                num1 = double.Parse(txtOutput.Text);
-                txtOutput.Text = "";
-                opp = "*";
-                opp1 = "";
-            }
-            else if (b.Text == "/")//是否按下除号
-            {
-                num1 = double.Parse(txtOutput.Text);
-                txtOutput.Text = "";
-                opp = "/";
-                opp1 = "";
-            }
-            else if (b.Text == "=")//是否按下等号
+            } 
+            else //是否按下等号
             {
                 if (opp1 != "=")
                 {
                     num2 = double.Parse(txtOutput.Text);
                 }
-                if (opp == "+")
+                switch(opp)
                 {
-                    num1 = num1 + num2;
-                    txtOutput.Text = "" + num1.ToString();
+                    case "+":
+                        num1+=num2;
+                        break;
+                    case  "-":
+                        num1-=num2;
+                        break;
+                    case  "*":
+                        num1*=num2;
+                        break;
+                    case  "/":
+                        if(num2==0) txtOutput.Text="除数不能为0";
+                        else num1/=num2;
+                        break;
                 }
-                if (opp == "-")
-                {
-                    num1 = num1 - num2;
-                    txtOutput.Text = "" + num1.ToString();
-                }
-                if (opp == "*")
-                {
-                    num1 = num1 * num2;
-                    txtOutput.Text = "" + num1.ToString();
-                }
-                if (opp == "/")
-                {
-                    if (num2 == 0)//判断num2是否为0
-                    {
-                        txtOutput.Text = "除数不能为零！";
-                    }
-                    else
-                    {
-                        num1 = num1 / num2;
-                        txtOutput.Text = "" + num1.ToString();
-                    }
-                }
+                txtOutput.Text = "" + num1.ToString();    
                 opp1 = "=";
             }
         }
@@ -110,7 +79,7 @@ namespace WCalculator
                     txtOutput.Text = str + ".";
                 }
             }
-            else if (b.Text == "<---")//是否按下退格符
+            else if (b.Text == "<--")//是否按下退格符
             {
                 if (txtOutput.Text != "")
                 {
@@ -154,5 +123,6 @@ namespace WCalculator
             }
             opp1 = "";
         }
-    }
 }
+}
+
