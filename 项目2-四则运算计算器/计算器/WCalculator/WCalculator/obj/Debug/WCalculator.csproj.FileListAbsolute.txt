@@ -1,0 +1,18 @@
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\bin\Debug\WCalculator.exe.config
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\bin\Debug\WCalculator.exe
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\bin\Debug\WCalculator.pdb
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.Form1.resources
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.Properties.Resources.resources
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.csproj.GenerateResource.Cache
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.exe
+d:\我的文档\visual studio 2013\Projects\WCalculator\WCalculator\obj\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.exe.config
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.exe
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.exe
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.Form1.resources
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.csproj.GenerateResource.Cache
