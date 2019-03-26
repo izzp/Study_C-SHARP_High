@@ -12,70 +12,67 @@ namespace WCalculator
 {
     public partial class Form1 : Form
     {
-        string str, opp, opp1;
-        double num1, num2, result;
         public Form1()
         {
             InitializeComponent();
         }
-
-        private void number(object sender, EventArgs e)
+        string str, opp, opp1;
+        double num1, num2, result;
+        private void number(object sender, EventArgs e)//数字0~9
         {
-            Button b = (Button)sender;
-            str = b.Text;
-            if (txtOutput.Text == "0")
+            Button b = (Button)(sender);//实例化按钮对象
+            str = b.Text; ;
+            if (txtOutput.Text == "0")//是否按下0
             {
                 txtOutput.Text = str;
             }
             else
             {
-                txtOutput.Text += str;
+                txtOutput.Text = txtOutput.Text + str;
             }
         }
-
-        private void operator1(object sender, EventArgs e)
+        private void operator1(object sender, EventArgs e)//符号"+ - * / ="
         {
-            Button b = (Button)sender;
-            if (b.Text != "=")
+            Button b = (Button)(sender);//实例化按钮对象
+            if (b.Text != "=")//判断是否按下+，-，*，/
             {
                 num1 = double.Parse(txtOutput.Text);
                 txtOutput.Text = "0";
                 opp = b.Text;
                 opp1 = "";
-            }
-            else
+            } 
+            else //是否按下等号
             {
                 if (opp1 != "=")
                 {
                     num2 = double.Parse(txtOutput.Text);
                 }
-                switch (opp)
+                switch(opp)
                 {
                     case "+":
-                        num1 += num2;                        
+                        num1+=num2;
                         break;
-                    case "-":
-                        num1 -= num2;
+                    case  "-":
+                        num1-=num2;
                         break;
-                    case "*":
-                        num1 *= num2;
+                    case  "*":
+                        num1*=num2;
                         break;
-                    case "/":
-                        if (num2 == 0) txtOutput.Text = "除数不能为零";
-                        else num1 /= num2;                        
+                    case  "/":
+                        if(num2==0) txtOutput.Text="除数不能为0";
+                        else num1/=num2;
                         break;
                 }
-                txtOutput.Text = "" + num1.ToString();
+                txtOutput.Text = "" + num1.ToString();    
                 opp1 = "=";
             }
         }
-
         private void operator2(object sender, EventArgs e)
         {
-            Button b=(Button)sender;
+            Button b = (Button)sender;
             double temp;
             temp = double.Parse(txtOutput.Text);
-            switch(b.Text)
+            switch (b.Text)
             {
                 case "√": temp = Math.Sqrt(temp); break;
                 case "%": temp /= 100; break;
@@ -85,7 +82,7 @@ namespace WCalculator
             txtOutput.Text = "" + temp.ToString();
         }
 
-        private void btnBackspace_Click(object sender, EventArgs e)
+        private void btnAC_Click(object sender, EventArgs e)
         {
             if (txtOutput.Text != "0")
             {
@@ -105,12 +102,18 @@ namespace WCalculator
             txtOutput.Text = "0";
         }
 
-        private void btnDot_Click(object sender, EventArgs e)
+        private void btnDian_Click(object sender, EventArgs e)
         {
             if (txtOutput.Text.IndexOf(".") == -1)
             {
                 txtOutput.Text += ".";
             }
         }
-    }
+
+
+
+
+
 }
+}
+

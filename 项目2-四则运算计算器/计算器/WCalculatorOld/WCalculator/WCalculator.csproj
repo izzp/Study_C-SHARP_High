@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4BA523A-62D9-484F-8BEA-A418F1974F31}</ProjectGuid>
+    <ProjectGuid>{510ECA1F-70ED-4636-94F9-81161A1A3928}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WCalculator</RootNamespace>

@@ -28,331 +28,399 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEqu = new System.Windows.Forms.Button();
-            this.btnDian = new System.Windows.Forms.Button();
-            this.btn0 = new System.Windows.Forms.Button();
-            this.btnPlus = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btnMinus = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btnMul = new System.Windows.Forms.Button();
+            this.txtOutput = new System.Windows.Forms.TextBox();
+            this.btnMC = new System.Windows.Forms.Button();
+            this.btnMR = new System.Windows.Forms.Button();
+            this.btnMAdd = new System.Windows.Forms.Button();
+            this.btnMS = new System.Windows.Forms.Button();
+            this.btnMSub = new System.Windows.Forms.Button();
+            this.btnSqrt = new System.Windows.Forms.Button();
+            this.btnSign = new System.Windows.Forms.Button();
+            this.btnC = new System.Windows.Forms.Button();
+            this.btnCE = new System.Windows.Forms.Button();
+            this.btnBackspace = new System.Windows.Forms.Button();
+            this.btnPercent = new System.Windows.Forms.Button();
+            this.btnDiv = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
-            this.btnDiv = new System.Windows.Forms.Button();
-            this.btn百分号 = new System.Windows.Forms.Button();
-            this.btn = new System.Windows.Forms.Button();
-            this.btnAC = new System.Windows.Forms.Button();
-            this.txtOutput = new System.Windows.Forms.TextBox();
-            this.btnReciprocal = new System.Windows.Forms.Button();
-            this.btnSqrt = new System.Windows.Forms.Button();
-            this.btnC = new System.Windows.Forms.Button();
-            this.btnCE = new System.Windows.Forms.Button();
+            this.btnInverse = new System.Windows.Forms.Button();
+            this.btnMul = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btnSub = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btnEqual = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.查看ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnEqu
+            // txtOutput
             // 
-            this.btnEqu.Location = new System.Drawing.Point(155, 197);
-            this.btnEqu.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEqu.Name = "btnEqu";
-            this.btnEqu.Size = new System.Drawing.Size(32, 57);
-            this.btnEqu.TabIndex = 40;
-            this.btnEqu.Text = "=";
-            this.btnEqu.UseVisualStyleBackColor = true;
-            this.btnEqu.Click += new System.EventHandler(this.operator1);
+            this.txtOutput.Location = new System.Drawing.Point(13, 31);
+            this.txtOutput.Name = "txtOutput";
+            this.txtOutput.ReadOnly = true;
+            this.txtOutput.Size = new System.Drawing.Size(260, 21);
+            this.txtOutput.TabIndex = 0;
+            this.txtOutput.Text = "0";
+            this.txtOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btnDian
+            // btnMC
             // 
-            this.btnDian.Location = new System.Drawing.Point(83, 228);
-            this.btnDian.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDian.Name = "btnDian";
-            this.btnDian.Size = new System.Drawing.Size(32, 26);
-            this.btnDian.TabIndex = 56;
-            this.btnDian.Text = ".";
-            this.btnDian.UseVisualStyleBackColor = true;
-            this.btnDian.Click += new System.EventHandler(this.operator2);
+            this.btnMC.Location = new System.Drawing.Point(14, 61);
+            this.btnMC.Name = "btnMC";
+            this.btnMC.Size = new System.Drawing.Size(40, 23);
+            this.btnMC.TabIndex = 1;
+            this.btnMC.Text = "MC";
+            this.btnMC.UseVisualStyleBackColor = true;
             // 
-            // btn0
+            // btnMR
             // 
-            this.btn0.Location = new System.Drawing.Point(11, 228);
-            this.btn0.Margin = new System.Windows.Forms.Padding(2);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(68, 26);
-            this.btn0.TabIndex = 55;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = true;
-            this.btn0.Click += new System.EventHandler(this.number);
+            this.btnMR.Location = new System.Drawing.Point(69, 61);
+            this.btnMR.Name = "btnMR";
+            this.btnMR.Size = new System.Drawing.Size(40, 23);
+            this.btnMR.TabIndex = 2;
+            this.btnMR.Text = "MR";
+            this.btnMR.UseVisualStyleBackColor = true;
             // 
-            // btnPlus
+            // btnMAdd
             // 
-            this.btnPlus.Location = new System.Drawing.Point(119, 228);
-            this.btnPlus.Margin = new System.Windows.Forms.Padding(2);
-            this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(32, 26);
-            this.btnPlus.TabIndex = 54;
-            this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
-            this.btnPlus.Click += new System.EventHandler(this.operator1);
+            this.btnMAdd.Location = new System.Drawing.Point(179, 61);
+            this.btnMAdd.Name = "btnMAdd";
+            this.btnMAdd.Size = new System.Drawing.Size(40, 23);
+            this.btnMAdd.TabIndex = 4;
+            this.btnMAdd.Text = "M+";
+            this.btnMAdd.UseVisualStyleBackColor = true;
             // 
-            // btn3
+            // btnMS
             // 
-            this.btn3.Location = new System.Drawing.Point(83, 198);
-            this.btn3.Margin = new System.Windows.Forms.Padding(2);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(32, 26);
-            this.btn3.TabIndex = 53;
-            this.btn3.Text = "3";
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.AutoSizeChanged += new System.EventHandler(this.number);
-            this.btn3.Click += new System.EventHandler(this.number);
+            this.btnMS.Location = new System.Drawing.Point(124, 61);
+            this.btnMS.Name = "btnMS";
+            this.btnMS.Size = new System.Drawing.Size(40, 23);
+            this.btnMS.TabIndex = 3;
+            this.btnMS.Text = "MS";
+            this.btnMS.UseVisualStyleBackColor = true;
             // 
-            // btn2
+            // btnMSub
             // 
-            this.btn2.Location = new System.Drawing.Point(47, 197);
-            this.btn2.Margin = new System.Windows.Forms.Padding(2);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(32, 26);
-            this.btn2.TabIndex = 52;
-            this.btn2.Text = "2";
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.AutoSizeChanged += new System.EventHandler(this.number);
-            this.btn2.Click += new System.EventHandler(this.number);
+            this.btnMSub.Location = new System.Drawing.Point(234, 61);
+            this.btnMSub.Name = "btnMSub";
+            this.btnMSub.Size = new System.Drawing.Size(40, 23);
+            this.btnMSub.TabIndex = 5;
+            this.btnMSub.Text = "M-";
+            this.btnMSub.UseVisualStyleBackColor = true;
             // 
-            // btn1
+            // btnSqrt
             // 
-            this.btn1.Location = new System.Drawing.Point(10, 197);
-            this.btn1.Margin = new System.Windows.Forms.Padding(2);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(33, 26);
-            this.btn1.TabIndex = 51;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.AutoSizeChanged += new System.EventHandler(this.number);
-            this.btn1.Click += new System.EventHandler(this.number);
+            this.btnSqrt.Location = new System.Drawing.Point(234, 90);
+            this.btnSqrt.Name = "btnSqrt";
+            this.btnSqrt.Size = new System.Drawing.Size(40, 23);
+            this.btnSqrt.TabIndex = 10;
+            this.btnSqrt.Text = "√";
+            this.btnSqrt.UseVisualStyleBackColor = true;
+            this.btnSqrt.Click += new System.EventHandler(this.operator2);
             // 
-            // btnMinus
+            // btnSign
             // 
-            this.btnMinus.Location = new System.Drawing.Point(119, 197);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(2);
-            this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(32, 26);
-            this.btnMinus.TabIndex = 50;
-            this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
-            this.btnMinus.Click += new System.EventHandler(this.operator1);
+            this.btnSign.Location = new System.Drawing.Point(179, 90);
+            this.btnSign.Name = "btnSign";
+            this.btnSign.Size = new System.Drawing.Size(40, 23);
+            this.btnSign.TabIndex = 9;
+            this.btnSign.Text = "±";
+            this.btnSign.UseVisualStyleBackColor = true;
+            this.btnSign.Click += new System.EventHandler(this.operator2);
             // 
-            // btn6
+            // btnC
             // 
-            this.btn6.Location = new System.Drawing.Point(83, 166);
-            this.btn6.Margin = new System.Windows.Forms.Padding(2);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(32, 26);
-            this.btn6.TabIndex = 57;
-            this.btn6.Text = "6";
-            this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.number);
+            this.btnC.Location = new System.Drawing.Point(124, 90);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(40, 23);
+            this.btnC.TabIndex = 8;
+            this.btnC.Text = "C";
+            this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
-            // btn5
+            // btnCE
             // 
-            this.btn5.Location = new System.Drawing.Point(47, 166);
-            this.btn5.Margin = new System.Windows.Forms.Padding(2);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(32, 26);
-            this.btn5.TabIndex = 49;
-            this.btn5.Text = "5";
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.number);
+            this.btnCE.Location = new System.Drawing.Point(69, 90);
+            this.btnCE.Name = "btnCE";
+            this.btnCE.Size = new System.Drawing.Size(40, 23);
+            this.btnCE.TabIndex = 7;
+            this.btnCE.Text = "CE";
+            this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
-            // btn4
+            // btnBackspace
             // 
-            this.btn4.Location = new System.Drawing.Point(10, 166);
-            this.btn4.Margin = new System.Windows.Forms.Padding(2);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(33, 26);
-            this.btn4.TabIndex = 47;
-            this.btn4.Text = "4";
-            this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.number);
+            this.btnBackspace.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnBackspace.Location = new System.Drawing.Point(14, 90);
+            this.btnBackspace.Name = "btnBackspace";
+            this.btnBackspace.Size = new System.Drawing.Size(40, 23);
+            this.btnBackspace.TabIndex = 6;
+            this.btnBackspace.Text = "←";
+            this.btnBackspace.UseVisualStyleBackColor = true;
+            this.btnBackspace.Click += new System.EventHandler(this.btnBackspace_Click);
             // 
-            // btnMul
+            // btnPercent
             // 
-            this.btnMul.Location = new System.Drawing.Point(119, 166);
-            this.btnMul.Margin = new System.Windows.Forms.Padding(2);
-            this.btnMul.Name = "btnMul";
-            this.btnMul.Size = new System.Drawing.Size(32, 26);
-            this.btnMul.TabIndex = 46;
-            this.btnMul.Text = "*";
-            this.btnMul.UseVisualStyleBackColor = true;
-            this.btnMul.Click += new System.EventHandler(this.operator1);
+            this.btnPercent.Location = new System.Drawing.Point(234, 119);
+            this.btnPercent.Name = "btnPercent";
+            this.btnPercent.Size = new System.Drawing.Size(40, 23);
+            this.btnPercent.TabIndex = 15;
+            this.btnPercent.Text = "%";
+            this.btnPercent.UseVisualStyleBackColor = true;
+            this.btnPercent.Click += new System.EventHandler(this.operator2);
+            // 
+            // btnDiv
+            // 
+            this.btnDiv.Location = new System.Drawing.Point(179, 119);
+            this.btnDiv.Name = "btnDiv";
+            this.btnDiv.Size = new System.Drawing.Size(40, 23);
+            this.btnDiv.TabIndex = 14;
+            this.btnDiv.Text = "/";
+            this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnDiv.Click += new System.EventHandler(this.operator1);
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(83, 136);
-            this.btn9.Margin = new System.Windows.Forms.Padding(2);
+            this.btn9.Location = new System.Drawing.Point(124, 119);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(32, 26);
-            this.btn9.TabIndex = 45;
+            this.btn9.Size = new System.Drawing.Size(40, 23);
+            this.btn9.TabIndex = 13;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.number);
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(47, 136);
-            this.btn8.Margin = new System.Windows.Forms.Padding(2);
+            this.btn8.Location = new System.Drawing.Point(69, 119);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(32, 26);
-            this.btn8.TabIndex = 44;
+            this.btn8.Size = new System.Drawing.Size(40, 23);
+            this.btn8.TabIndex = 12;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
             this.btn8.Click += new System.EventHandler(this.number);
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(11, 136);
-            this.btn7.Margin = new System.Windows.Forms.Padding(2);
+            this.btn7.Location = new System.Drawing.Point(14, 119);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(33, 26);
-            this.btn7.TabIndex = 43;
+            this.btn7.Size = new System.Drawing.Size(40, 23);
+            this.btn7.TabIndex = 11;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
             this.btn7.Click += new System.EventHandler(this.number);
             // 
-            // btnDiv
+            // btnInverse
             // 
-            this.btnDiv.Location = new System.Drawing.Point(119, 135);
-            this.btnDiv.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDiv.Name = "btnDiv";
-            this.btnDiv.Size = new System.Drawing.Size(32, 26);
-            this.btnDiv.TabIndex = 42;
-            this.btnDiv.Text = "/";
-            this.btnDiv.UseVisualStyleBackColor = true;
-            this.btnDiv.Click += new System.EventHandler(this.operator1);
+            this.btnInverse.Location = new System.Drawing.Point(234, 148);
+            this.btnInverse.Name = "btnInverse";
+            this.btnInverse.Size = new System.Drawing.Size(40, 23);
+            this.btnInverse.TabIndex = 20;
+            this.btnInverse.Text = "1/x";
+            this.btnInverse.UseVisualStyleBackColor = true;
+            this.btnInverse.Click += new System.EventHandler(this.operator2);
             // 
-            // btn百分号
+            // btnMul
             // 
-            this.btn百分号.Location = new System.Drawing.Point(155, 136);
-            this.btn百分号.Margin = new System.Windows.Forms.Padding(2);
-            this.btn百分号.Name = "btn百分号";
-            this.btn百分号.Size = new System.Drawing.Size(32, 26);
-            this.btn百分号.TabIndex = 41;
-            this.btn百分号.Text = "%";
-            this.btn百分号.UseVisualStyleBackColor = true;
-            this.btn百分号.Click += new System.EventHandler(this.operator2);
+            this.btnMul.Location = new System.Drawing.Point(179, 148);
+            this.btnMul.Name = "btnMul";
+            this.btnMul.Size = new System.Drawing.Size(40, 23);
+            this.btnMul.TabIndex = 19;
+            this.btnMul.Text = "*";
+            this.btnMul.UseVisualStyleBackColor = true;
+            this.btnMul.Click += new System.EventHandler(this.operator1);
             // 
-            // btn
+            // btn6
             // 
-            this.btn.Location = new System.Drawing.Point(119, 103);
-            this.btn.Margin = new System.Windows.Forms.Padding(2);
-            this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(32, 26);
-            this.btn.TabIndex = 48;
-            this.btn.Text = "±";
-            this.btn.UseVisualStyleBackColor = true;
-            this.btn.Click += new System.EventHandler(this.operator2);
+            this.btn6.Location = new System.Drawing.Point(124, 148);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(40, 23);
+            this.btn6.TabIndex = 18;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.number);
             // 
-            // btnAC
+            // btn5
             // 
-            this.btnAC.Location = new System.Drawing.Point(10, 103);
-            this.btnAC.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAC.Name = "btnAC";
-            this.btnAC.Size = new System.Drawing.Size(33, 26);
-            this.btnAC.TabIndex = 58;
-            this.btnAC.Text = "<--";
-            this.btnAC.UseVisualStyleBackColor = true;
-            this.btnAC.Click += new System.EventHandler(this.operator2);
+            this.btn5.Location = new System.Drawing.Point(69, 148);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(40, 23);
+            this.btn5.TabIndex = 17;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.number);
             // 
-            // txtOutput
+            // btn4
             // 
-            this.txtOutput.Location = new System.Drawing.Point(11, 33);
-            this.txtOutput.Margin = new System.Windows.Forms.Padding(2);
-            this.txtOutput.Multiline = true;
-            this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(176, 51);
-            this.txtOutput.TabIndex = 59;
+            this.btn4.Location = new System.Drawing.Point(14, 148);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(40, 23);
+            this.btn4.TabIndex = 16;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.number);
             // 
-            // btnReciprocal
+            // btnSub
             // 
-            this.btnReciprocal.Location = new System.Drawing.Point(155, 166);
-            this.btnReciprocal.Margin = new System.Windows.Forms.Padding(2);
-            this.btnReciprocal.Name = "btnReciprocal";
-            this.btnReciprocal.Size = new System.Drawing.Size(32, 26);
-            this.btnReciprocal.TabIndex = 40;
-            this.btnReciprocal.Text = "1/x";
-            this.btnReciprocal.UseVisualStyleBackColor = true;
-            this.btnReciprocal.Click += new System.EventHandler(this.operator2);
+            this.btnSub.Location = new System.Drawing.Point(179, 177);
+            this.btnSub.Name = "btnSub";
+            this.btnSub.Size = new System.Drawing.Size(40, 23);
+            this.btnSub.TabIndex = 24;
+            this.btnSub.Text = "-";
+            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.Click += new System.EventHandler(this.operator1);
             // 
-            // btnSqrt
+            // btn3
             // 
-            this.btnSqrt.Location = new System.Drawing.Point(155, 103);
-            this.btnSqrt.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSqrt.Name = "btnSqrt";
-            this.btnSqrt.Size = new System.Drawing.Size(32, 26);
-            this.btnSqrt.TabIndex = 40;
-            this.btnSqrt.Text = "√";
-            this.btnSqrt.UseVisualStyleBackColor = true;
-            this.btnSqrt.Click += new System.EventHandler(this.operator2);
+            this.btn3.Location = new System.Drawing.Point(124, 177);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(40, 23);
+            this.btn3.TabIndex = 23;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.number);
             // 
-            // btnC
+            // btn2
             // 
-            this.btnC.Location = new System.Drawing.Point(83, 103);
-            this.btnC.Margin = new System.Windows.Forms.Padding(2);
-            this.btnC.Name = "btnC";
-            this.btnC.Size = new System.Drawing.Size(32, 26);
-            this.btnC.TabIndex = 40;
-            this.btnC.Text = "C";
-            this.btnC.UseVisualStyleBackColor = true;
-            this.btnC.Click += new System.EventHandler(this.operator2);
+            this.btn2.Location = new System.Drawing.Point(69, 177);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(40, 23);
+            this.btn2.TabIndex = 22;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.number);
             // 
-            // btnCE
+            // btn1
             // 
-            this.btnCE.Location = new System.Drawing.Point(47, 103);
-            this.btnCE.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCE.Name = "btnCE";
-            this.btnCE.Size = new System.Drawing.Size(32, 26);
-            this.btnCE.TabIndex = 40;
-            this.btnCE.Text = "CE";
-            this.btnCE.UseVisualStyleBackColor = true;
-            this.btnCE.Click += new System.EventHandler(this.operator2);
+            this.btn1.Location = new System.Drawing.Point(14, 177);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(40, 23);
+            this.btn1.TabIndex = 21;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.number);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(179, 206);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(40, 23);
+            this.btnAdd.TabIndex = 28;
+            this.btnAdd.Text = "+";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.operator1);
+            // 
+            // btnDot
+            // 
+            this.btnDot.Location = new System.Drawing.Point(124, 206);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(40, 23);
+            this.btnDot.TabIndex = 27;
+            this.btnDot.Text = "▪";
+            this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
+            // 
+            // btn0
+            // 
+            this.btn0.Location = new System.Drawing.Point(14, 206);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(95, 23);
+            this.btn0.TabIndex = 25;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.number);
+            // 
+            // btnEqual
+            // 
+            this.btnEqual.Location = new System.Drawing.Point(234, 177);
+            this.btnEqual.Name = "btnEqual";
+            this.btnEqual.Size = new System.Drawing.Size(40, 52);
+            this.btnEqual.TabIndex = 29;
+            this.btnEqual.Text = "=";
+            this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.Click += new System.EventHandler(this.operator1);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.查看ToolStripMenuItem,
+            this.编辑ToolStripMenuItem,
+            this.帮助ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(289, 25);
+            this.menuStrip1.TabIndex = 30;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 查看ToolStripMenuItem
+            // 
+            this.查看ToolStripMenuItem.Name = "查看ToolStripMenuItem";
+            this.查看ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.查看ToolStripMenuItem.Text = "查看";
+            // 
+            // 编辑ToolStripMenuItem
+            // 
+            this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
+            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.编辑ToolStripMenuItem.Text = "编辑";
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(199, 262);
-            this.Controls.Add(this.txtOutput);
-            this.Controls.Add(this.btnCE);
-            this.Controls.Add(this.btnC);
-            this.Controls.Add(this.btnSqrt);
-            this.Controls.Add(this.btnReciprocal);
-            this.Controls.Add(this.btnEqu);
-            this.Controls.Add(this.btnDian);
+            this.ClientSize = new System.Drawing.Size(289, 236);
+            this.Controls.Add(this.btnEqual);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnDot);
             this.Controls.Add(this.btn0);
-            this.Controls.Add(this.btnPlus);
+            this.Controls.Add(this.btnSub);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.btnMinus);
+            this.Controls.Add(this.btnInverse);
+            this.Controls.Add(this.btnMul);
             this.Controls.Add(this.btn6);
             this.Controls.Add(this.btn5);
             this.Controls.Add(this.btn4);
-            this.Controls.Add(this.btnMul);
+            this.Controls.Add(this.btnPercent);
+            this.Controls.Add(this.btnDiv);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
-            this.Controls.Add(this.btnDiv);
-            this.Controls.Add(this.btn百分号);
-            this.Controls.Add(this.btn);
-            this.Controls.Add(this.btnAC);
+            this.Controls.Add(this.btnSqrt);
+            this.Controls.Add(this.btnSign);
+            this.Controls.Add(this.btnC);
+            this.Controls.Add(this.btnCE);
+            this.Controls.Add(this.btnBackspace);
+            this.Controls.Add(this.btnMSub);
+            this.Controls.Add(this.btnMAdd);
+            this.Controls.Add(this.btnMS);
+            this.Controls.Add(this.btnMR);
+            this.Controls.Add(this.btnMC);
+            this.Controls.Add(this.txtOutput);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "这是个计算器";
-            this.Click += new System.EventHandler(this.operator2);
+            this.Text = "计算器";
+            this.Click += new System.EventHandler(this.operator1);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,30 +428,39 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnEqu;
-        private System.Windows.Forms.Button btnDian;
-        private System.Windows.Forms.Button btn0;
-        private System.Windows.Forms.Button btnPlus;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btnMinus;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btnMul;
+        private System.Windows.Forms.TextBox txtOutput;
+        private System.Windows.Forms.Button btnMC;
+        private System.Windows.Forms.Button btnMR;
+        private System.Windows.Forms.Button btnMAdd;
+        private System.Windows.Forms.Button btnMS;
+        private System.Windows.Forms.Button btnMSub;
+        private System.Windows.Forms.Button btnSqrt;
+        private System.Windows.Forms.Button btnSign;
+        private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Button btnCE;
+        private System.Windows.Forms.Button btnBackspace;
+        private System.Windows.Forms.Button btnPercent;
+        private System.Windows.Forms.Button btnDiv;
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btnDiv;
-        private System.Windows.Forms.Button btn百分号;
-        private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.Button btnAC;
-        private System.Windows.Forms.TextBox txtOutput;
-        private System.Windows.Forms.Button btnReciprocal;
-        private System.Windows.Forms.Button btnSqrt;
-        private System.Windows.Forms.Button btnC;
-        private System.Windows.Forms.Button btnCE;
+        private System.Windows.Forms.Button btnInverse;
+        private System.Windows.Forms.Button btnMul;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btnSub;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnDot;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btnEqual;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 查看ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 编辑ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
     }
 }
 
