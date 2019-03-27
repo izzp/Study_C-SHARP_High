@@ -15,7 +15,7 @@ namespace WCalculator
         string str, opp, opp1;
         double num1, num2, result;
         double m = 0;
-        bool flag = false;
+        bool flag = false;//按过=后，防止数字拼接
         
         public Form1()
         {
@@ -43,41 +43,16 @@ namespace WCalculator
 
         private void operator1(object sender, EventArgs e)
         {
-
+            if(opp !="" && opp1 == "")//用于连续计算，例1+2+3
+            {
+                btnEqual_Click(sender, e);
+            }
             Button b = (Button)sender;
-            if (b.Text != "=")
-            {
-                num1 = double.Parse(txtOutput.Text);
-                txtOutput.Text = "0";
-                opp = b.Text;
-                opp1 = "";
-            }
-            else
-            {
-                if (opp1 != "=")
-                {
-                    num2 = double.Parse(txtOutput.Text);
-                }
-                switch (opp)
-                {
-                    case "+":
-                        num1 += num2;                        
-                        break;
-                    case "-":
-                        num1 -= num2;
-                        break;
-                    case "*":
-                        num1 *= num2;
-                        break;
-                    case "/":
-                        if (num2 == 0) txtOutput.Text = "除数不能为零";
-                        else num1 /= num2;                        
-                        break;
-                }
-                txtOutput.Text = "" + num1.ToString();
-                opp1 = "=";
-                flag = true;
-            }
+            num1 = double.Parse(txtOutput.Text);
+            txtOutput.Text = "0";
+            opp = b.Text;
+            opp1 = "";
+
         }
 
         private void operator2(object sender, EventArgs e)
@@ -95,9 +70,9 @@ namespace WCalculator
             txtOutput.Text = "" + temp.ToString();
         }
 
-        private void btnBackspace_Click(object sender, EventArgs e)
+        private void btnBackspace_Click(object sender, EventArgs e)//退格
         {
-            if (txtOutput.Text != "0")
+            if (txtOutput.Text != "0"&&txtOutput.Text.Length>0)
             {
                 txtOutput.Text = txtOutput.Text.Substring(0, txtOutput.Text.Length - 1);
             }
@@ -154,6 +129,34 @@ namespace WCalculator
         private void txtOutput_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnEqual_Click(object sender, EventArgs e)//等号
+        {
+
+            if (opp1 != "=")
+            {
+                num2 = double.Parse(txtOutput.Text);
+            }
+            switch (opp)
+            {
+                case "+":
+                    num1 += num2;
+                    break;
+                case "-":
+                    num1 -= num2;
+                    break;
+                case "*":
+                    num1 *= num2;
+                    break;
+                case "/":
+                    if (num2 == 0) txtOutput.Text = "除数不能为零";
+                    else num1 /= num2;
+                    break;
+            }
+            txtOutput.Text = "" + num1.ToString();
+            opp1 = "=";
+            flag = true;
         }
     }
 }

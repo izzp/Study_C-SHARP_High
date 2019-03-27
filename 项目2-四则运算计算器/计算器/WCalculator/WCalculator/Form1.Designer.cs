@@ -357,7 +357,7 @@
             this.btnEqual.TabIndex = 29;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
-            this.btnEqual.Click += new System.EventHandler(this.operator1);
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // menuStrip1
             // 
@@ -392,9 +392,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(197, 9);
+            this.label1.Font = new System.Drawing.Font("幼圆", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(223, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 12);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 31;
             this.label1.Visible = false;
             // 
