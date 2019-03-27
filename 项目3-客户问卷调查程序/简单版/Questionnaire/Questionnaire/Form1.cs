@@ -21,6 +21,7 @@ namespace Questionnaire
         {
             string gender = "";
             string impression = "客户对业务员印象:";//储存印象
+            string service = "客户需要：";
             if (rbtnAnswer1.Checked == true)
             {
                 gender = "客户性别:" + rbtnAnswer1.Text;
@@ -45,13 +46,18 @@ namespace Questionnaire
             {
                 impression = impression + chkAnswer4.Text;
             }
-            if(txtName.Text=="")
+            for (int i = 0; i < lstAnswer.SelectedItems.Count;i++ )
+            {
+                service += lstAnswer.SelectedItems[i].ToString();
+            }
+
+            if (txtName.Text == "")
             {
                 MessageBox.Show("请输入姓名");
             }
             else
             {
-                MessageBox.Show("客户姓名：" + txtName.Text.Trim() + "\r\n" + gender + "\r\n"+ impression + "\r\n" + "客户需要：" + lstAnswer.SelectedItem.ToString() + "\r\n" + "客户最满意：" + cboAnwer.Text, "问卷调查结果");
+                MessageBox.Show("客户姓名：" + txtName.Text.Trim() + "\r\n" + gender + "\r\n" + impression + "\r\n" + service + "\r\n" + "客户最满意：" + cboAnwer.Text, "问卷调查结果");
             }
 
         }
