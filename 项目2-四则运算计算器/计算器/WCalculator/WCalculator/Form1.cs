@@ -14,6 +14,9 @@ namespace WCalculator
     {
         string str, opp, opp1;
         double num1, num2, result;
+        double m = 0;
+        bool flag = false;
+        
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +24,11 @@ namespace WCalculator
 
         private void number(object sender, EventArgs e)
         {
+            if (flag)
+            {
+                txtOutput.Text = "0";
+                flag = false;
+            }
             Button b = (Button)sender;
             str = b.Text;
             if (txtOutput.Text == "0")
@@ -35,6 +43,7 @@ namespace WCalculator
 
         private void operator1(object sender, EventArgs e)
         {
+
             Button b = (Button)sender;
             if (b.Text != "=")
             {
@@ -67,6 +76,7 @@ namespace WCalculator
                 }
                 txtOutput.Text = "" + num1.ToString();
                 opp1 = "=";
+                flag = true;
             }
         }
 
@@ -111,6 +121,39 @@ namespace WCalculator
             {
                 txtOutput.Text += ".";
             }
+        }
+
+        private void btnMC_Click(object sender, EventArgs e)
+        {
+            m = 0;
+            label1.Text = null;
+        }
+
+        private void btnMR_Click(object sender, EventArgs e)
+        {
+            txtOutput.Text = m.ToString();
+        }
+
+        private void btnMS_Click(object sender, EventArgs e)
+        {
+            m = double.Parse(txtOutput.Text);
+            label1.Visible = true;
+            label1.Text = "M";
+        }
+
+        private void btnMAdd_Click(object sender, EventArgs e)
+        {
+            m += double.Parse(txtOutput.Text);
+        }
+
+        private void btnMSub_Click(object sender, EventArgs e)
+        {
+            m -= double.Parse(txtOutput.Text);
+        }
+
+        private void txtOutput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

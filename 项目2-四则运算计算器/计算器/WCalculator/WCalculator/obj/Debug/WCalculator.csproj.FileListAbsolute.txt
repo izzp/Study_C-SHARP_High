@@ -19,3 +19,12 @@ C:\Users\yuxin\Desktop\WCalculator\WCalculator\obj\Debug\WCalculator.csproj.Gene
 D:\Git\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.exe.config
 D:\Git\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.exe
 D:\Git\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.exe.config
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.exe
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.exe
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\bin\Debug\WCalculator.pdb
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.Form1.resources
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Study_C-SHARP_High\项目2-四则运算计算器\计算器\WCalculator\WCalculator\obj\Debug\WCalculator.csproj.GenerateResource.Cache
