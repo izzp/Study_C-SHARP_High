@@ -43,6 +43,8 @@
             this.cboAnwer = new System.Windows.Forms.ComboBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblQuestion2
@@ -115,7 +117,7 @@
             // chkAnswer1
             // 
             this.chkAnswer1.AutoSize = true;
-            this.chkAnswer1.Location = new System.Drawing.Point(71, 192);
+            this.chkAnswer1.Location = new System.Drawing.Point(25, 16);
             this.chkAnswer1.Name = "chkAnswer1";
             this.chkAnswer1.Size = new System.Drawing.Size(48, 16);
             this.chkAnswer1.TabIndex = 4;
@@ -125,7 +127,7 @@
             // chkAnswer2
             // 
             this.chkAnswer2.AutoSize = true;
-            this.chkAnswer2.Location = new System.Drawing.Point(155, 192);
+            this.chkAnswer2.Location = new System.Drawing.Point(109, 16);
             this.chkAnswer2.Name = "chkAnswer2";
             this.chkAnswer2.Size = new System.Drawing.Size(48, 16);
             this.chkAnswer2.TabIndex = 5;
@@ -135,7 +137,7 @@
             // chkAnswer3
             // 
             this.chkAnswer3.AutoSize = true;
-            this.chkAnswer3.Location = new System.Drawing.Point(256, 192);
+            this.chkAnswer3.Location = new System.Drawing.Point(210, 16);
             this.chkAnswer3.Name = "chkAnswer3";
             this.chkAnswer3.Size = new System.Drawing.Size(48, 16);
             this.chkAnswer3.TabIndex = 6;
@@ -145,7 +147,7 @@
             // chkAnswer4
             // 
             this.chkAnswer4.AutoSize = true;
-            this.chkAnswer4.Location = new System.Drawing.Point(367, 192);
+            this.chkAnswer4.Location = new System.Drawing.Point(321, 16);
             this.chkAnswer4.Name = "chkAnswer4";
             this.chkAnswer4.Size = new System.Drawing.Size(48, 16);
             this.chkAnswer4.TabIndex = 7;
@@ -196,19 +198,29 @@
             this.txtName.Size = new System.Drawing.Size(100, 21);
             this.txtName.TabIndex = 11;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.chkAnswer2);
+            this.groupBox1.Controls.Add(this.chkAnswer1);
+            this.groupBox1.Controls.Add(this.chkAnswer3);
+            this.groupBox1.Controls.Add(this.chkAnswer4);
+            this.groupBox1.Location = new System.Drawing.Point(71, 179);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(404, 40);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "印象";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 381);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.cboAnwer);
             this.Controls.Add(this.lstAnswer);
-            this.Controls.Add(this.chkAnswer4);
-            this.Controls.Add(this.chkAnswer3);
-            this.Controls.Add(this.chkAnswer2);
-            this.Controls.Add(this.chkAnswer1);
             this.Controls.Add(this.rbtnAnswer2);
             this.Controls.Add(this.rbtnAnswer1);
             this.Controls.Add(this.lblQuestion1);
@@ -218,6 +230,8 @@
             this.Controls.Add(this.lblQuestion2);
             this.Name = "Form1";
             this.Text = "客户问卷调查";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,6 +254,7 @@
         private System.Windows.Forms.ComboBox cboAnwer;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 

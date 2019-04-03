@@ -19,45 +19,45 @@ namespace Questionnaire
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            string gender = "";
-            string impression = "客户对业务员印象:";//储存印象
-            string service = "客户需要：";
-            if (rbtnAnswer1.Checked == true)
+            string gender = "", impresses = "", services = "", satisfy="";//性别，印象，服务，满意度
+            string[] serviceArray = new string[lstAnswer.SelectedItems.Count];
+            string[] impressArray;
+            int n=0;
+            foreach (Control c in groupBox1.Controls)
             {
-                gender = "客户性别:" + rbtnAnswer1.Text;
+                if (((CheckBox)c).Checked)
+                    n++;
             }
-            if (rbtnAnswer2.Checked == true)
-            {
-                gender = "客户性别:" + rbtnAnswer2.Text;
-            }
-            if(chkAnswer1.Checked==true)
-            {
-                impression = impression + chkAnswer1.Text;
-            }
-            if (chkAnswer2.Checked == true)
-            {
-                impression = impression + chkAnswer2.Text;
-            }
-            if (chkAnswer3.Checked == true)
-            {
-                impression = impression + chkAnswer1.Text;
-            }
-            if (chkAnswer4.Checked == true)
-            {
-                impression = impression + chkAnswer4.Text;
-            }
-            for (int i = 0; i < lstAnswer.SelectedItems.Count;i++ )
-            {
-                service += lstAnswer.SelectedItems[i].ToString();
-            }
+            impressArray = new string[n];
 
+            if (rbtnAnswer1.Checked)
+                gender = rbtnAnswer1.Text;
+            if (rbtnAnswer2.Checked)
+                gender = rbtnAnswer2.Text;
+            int i = 0;
+            if (chkAnswer1.Checked)
+                impressArray[i++] = chkAnswer1.Text;
+            if (chkAnswer2.Checked)
+                impressArray[i++] = chkAnswer2.Text;
+            if (chkAnswer3.Checked)
+                impressArray[i++] = chkAnswer3.Text;
+            if (chkAnswer4.Checked)
+                impressArray[i++] = chkAnswer4.Text;
+            impresses = string.Join("、", impressArray);
+
+            for (i = 0; i < lstAnswer.SelectedItems.Count;i++ )
+            {
+                serviceArray[i] += lstAnswer.SelectedItems[i].ToString();
+            }
+            services = string.Join("、", serviceArray);
+            satisfy = cboAnwer.Text;
             if (txtName.Text == "")
             {
                 MessageBox.Show("请输入姓名");
             }
             else
             {
-                MessageBox.Show("客户姓名：" + txtName.Text.Trim() + "\r\n" + gender + "\r\n" + impression + "\r\n" + service + "\r\n" + "客户最满意：" + cboAnwer.Text, "问卷调查结果");
+                MessageBox.Show("客户姓名：" + txtName.Text.Trim() + "\n性别："+gender + "\n印象是：" + impresses + "\n需要提供的服务是：" + services + "\n客户最满意：" + satisfy, "问卷调查结果");
             }
 
         }
